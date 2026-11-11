@@ -1,55 +1,150 @@
-# EyeSense AI 👁️
+# 👁️ EyeSense AI
+### Smart Eye Health Analysis Platform
 
-A responsive, browser-based spectacle prescription reader and eye-care education app built with React + Vite.
+<p align="center">
+  <b>Bringing AI and technology together for smarter eye health awareness.</b>
+</p>
 
-## Features
-- Upload or capture a photo of an existing spectacle prescription.
-- OCR text extraction using Tesseract.js (runs in the browser).
-- Manual prescription entry for right and left eyes.
-- Plain-language explanation of SPH, CYL, AXIS and ADD.
-- General eyewear and lens-care suggestions based on entered values.
-- Responsive layout for mobile and desktop.
-- No account or backend required.
+<p align="center">
+  <a href="https://eyesense-ai-otb6h4v64-naina137.vercel.app/">
+    <img src="https://img.shields.io/badge/LIVE%20DEMO-Visit%20Website-00C853?style=for-the-badge&logo=vercel&logoColor=white" alt="Live Demo">
+  </a>
+  <img src="https://img.shields.io/badge/React-Frontend-61DAFB?style=for-the-badge&logo=react&logoColor=black" alt="React">
+  <img src="https://img.shields.io/badge/Vite-Build%20Tool-646CFF?style=for-the-badge&logo=vite&logoColor=white" alt="Vite">
+  <img src="https://img.shields.io/badge/Status-Deployed-success?style=for-the-badge" alt="Deployment">
+</p>
 
-## Important medical note
-EyeSense AI does **not** measure refractive error or diagnose eye conditions. A phone camera cannot reliably determine eye power. OCR may misread numbers, signs, decimal points or columns. Always compare extracted values with the original prescription and confirm them with a qualified optometrist/ophthalmologist before buying or using corrective lenses. Recommendations are general educational information, not medical advice.
+---
 
-## Run locally
-1. Install Node.js 18 or newer.
-2. Extract this project.
-3. Open a terminal in the project folder.
-4. Run:
+## 🌐 Live Website
+
+**Experience EyeSense AI here:**
+
+🔗 https://eyesense-ai-otb6h4v64-naina137.vercel.app/
+
+## 📌 About the Project
+
+**EyeSense AI** is an AI-focused eye health analysis platform designed to bring technology closer to eye care awareness.
+
+The project aims to provide a user-friendly digital experience for exploring eye health analysis through an accessible web interface.
+
+It combines modern frontend technologies with an AI-oriented approach to make the experience simple, interactive, and accessible.
+
+## 🎯 Project Objectives
+
+- Explore the use of AI in eye health awareness.
+- Build a clean and user-friendly web interface.
+- Make eye-health-related technology more accessible.
+- Develop and deploy a modern web application.
+- Create a foundation for future AI-powered healthcare features.
+
+## 🛠️ Tech Stack
+
+| Technology | Purpose |
+|---|---|
+| HTML5 | Web page structure |
+| CSS3 | Styling and responsive design |
+| JavaScript | Application functionality |
+| React.js | Component-based frontend |
+| Vite | Development server and build tool |
+| Git & GitHub | Version control and source code |
+| Vercel | Hosting and deployment |
+
+## ⚙️ How to Run Locally
+
+Follow these steps to run EyeSense AI on your computer.
+
+**1. Clone the repository**
+
+```bash
+git clone https://github.com/Naina137/EyeSense-AI.git
+```
+
+**2. Open the project folder**
+
+```bash
+cd EyeSense-AI
+```
+
+**3. Install dependencies**
 
 ```bash
 npm install
+```
+
+**4. Start the development server**
+
+```bash
 npm run dev
 ```
 
-5. Open the local URL printed by Vite.
+**5. Open in your browser**
 
-## Build
-```bash
-npm run build
-npm run preview
+```text
+http://localhost:5173/
 ```
 
-## Deploy to Vercel
-1. Push this folder to a GitHub repository.
-2. In Vercel, choose **Add New → Project** and import the repository.
-3. Framework preset: **Vite**.
-4. Build command: `npm run build`
-5. Output directory: `dist`
-6. Deploy.
+## 📂 Project Structure
 
-## Deploy to Netlify
-- Build command: `npm run build`
-- Publish directory: `dist`
+```text
+EyeSense-AI/
+│
+├── src/
+│   ├── main.jsx
+│   └── styles.css
+│
+├── index.html
+├── package.json
+├── package-lock.json
+├── vite.config.js
+├── .gitignore
+└── README.md
+```
 
-## Privacy
-The app does not send prescription data to a custom backend. OCR is performed in the browser using Tesseract.js. The OCR library may download its language data from its configured CDN when first used. Avoid uploading documents containing unrelated personal information.
+## 🚀 Deployment
 
-## OCR tips
-- Use a clear, straight, well-lit photo.
-- Include the complete prescription table.
-- Avoid glare, shadows and blurry text.
-- Review every extracted value manually.
+EyeSense AI is deployed using **Vercel**.
+
+Deployment workflow:
+
+1. Source code maintained on GitHub.
+2. GitHub repository connected to Vercel.
+3. Vercel builds the React application using Vite.
+4. The generated production build is deployed.
+5. The website becomes accessible through a public URL.
+
+## 🎥 Project Demo
+
+Watch the project demonstration here:
+
+**Video Demo:** Add your YouTube or demonstration video link here.
+
+## 🔮 Future Enhancements
+
+- AI-powered eye image analysis.
+- More detailed eye health insights.
+- Improved user experience and accessibility.
+- Additional eye health awareness resources.
+- Enhanced analysis and reporting features.
+
+## ⚠️ Medical Disclaimer
+
+EyeSense AI is a technology project for educational and informational purposes. It should not be considered a substitute for professional eye examinations, medical advice, or diagnosis by a qualified eye-care professional.
+
+## 👩‍💻 Developer
+
+**Naina Kumari**
+
+Computer Science & Engineering (Data Science) Student
+
+Interested in AI, Machine Learning, Python, Data Science, and Web Development.
+
+🔗 **GitHub:** https://github.com/Naina137
+
+🔗 **LinkedIn:** https://www.linkedin.com/in/naina-kumari-06373132b
+
+---
+
+<p align="center">
+  <b>Built with curiosity, creativity, and a vision for smarter healthcare. 💙</b>
+</p>
